@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\project\\DDNS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF8CC19-B2B7-45D3-9358-557EC039571E}|DDNS\\DDNS.csproj|f:\\project\\ddns\\ddns\\aboutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF8CC19-B2B7-45D3-9358-557EC039571E}|DDNS\\DDNS.csproj|solutionrelative:ddns\\aboutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF8CC19-B2B7-45D3-9358-557EC039571E}|DDNS\\DDNS.csproj|F:\\project\\DDNS\\ddns\\aboutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEF8CC19-B2B7-45D3-9358-557EC039571E}|DDNS\\DDNS.csproj|solutionrelative:ddns\\aboutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF8CC19-B2B7-45D3-9358-557EC039571E}|DDNS\\DDNS.csproj|F:\\project\\DDNS\\ddns\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF8CC19-B2B7-45D3-9358-557EC039571E}|DDNS\\DDNS.csproj|solutionrelative:ddns\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF8CC19-B2B7-45D3-9358-557EC039571E}|DDNS\\DDNS.csproj|F:\\project\\DDNS\\ddns\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEF8CC19-B2B7-45D3-9358-557EC039571E}|DDNS\\DDNS.csproj|solutionrelative:ddns\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AboutForm.cs",
+              "DocumentMoniker": "F:\\project\\DDNS\\DDNS\\AboutForm.cs",
+              "RelativeDocumentMoniker": "DDNS\\AboutForm.cs",
+              "ToolTip": "F:\\project\\DDNS\\DDNS\\AboutForm.cs*",
+              "RelativeToolTip": "DDNS\\AboutForm.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwDcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T12:07:07.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AboutForm.cs [Design]",
+              "DocumentMoniker": "F:\\project\\DDNS\\DDNS\\AboutForm.cs",
+              "RelativeDocumentMoniker": "DDNS\\AboutForm.cs",
+              "ToolTip": "F:\\project\\DDNS\\DDNS\\AboutForm.cs [Design]*",
+              "RelativeToolTip": "DDNS\\AboutForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:58:04.235Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\project\\DDNS\\DDNS\\Form1.cs",
+              "RelativeDocumentMoniker": "DDNS\\Form1.cs",
+              "ToolTip": "F:\\project\\DDNS\\DDNS\\Form1.cs",
+              "RelativeToolTip": "DDNS\\Form1.cs",
+              "ViewState": "AgIAADwBAAAAAAAAAAAwwFEBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:39:00.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\project\\DDNS\\DDNS\\Form1.cs",
+              "RelativeDocumentMoniker": "DDNS\\Form1.cs",
+              "ToolTip": "F:\\project\\DDNS\\DDNS\\Form1.cs [Design]",
+              "RelativeToolTip": "DDNS\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:29:56.296Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

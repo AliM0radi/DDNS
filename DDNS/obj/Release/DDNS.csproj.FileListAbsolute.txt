@@ -1,0 +1,12 @@
+F:\project\Ddns\DDNS\bin\Release\DDNS.exe.config
+F:\project\Ddns\DDNS\bin\Release\DDNS.exe
+F:\project\Ddns\DDNS\bin\Release\DDNS.pdb
+F:\project\Ddns\DDNS\obj\Release\DDNS.csproj.AssemblyReference.cache
+F:\project\Ddns\DDNS\obj\Release\DDNS.CustomDNSForm.resources
+F:\project\Ddns\DDNS\obj\Release\DDNS.Form1.resources
+F:\project\Ddns\DDNS\obj\Release\DDNS.PingForm.resources
+F:\project\Ddns\DDNS\obj\Release\DDNS.Properties.Resources.resources
+F:\project\Ddns\DDNS\obj\Release\DDNS.csproj.GenerateResource.cache
+F:\project\Ddns\DDNS\obj\Release\DDNS.csproj.CoreCompileInputs.cache
+F:\project\Ddns\DDNS\obj\Release\DDNS.exe
+F:\project\Ddns\DDNS\obj\Release\DDNS.pdb
