@@ -333,6 +333,16 @@ namespace DDNS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap D_Figma {
+            get {
+                object obj = ResourceManager.GetObject("D_Figma", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap D_Github {
             get {
                 object obj = ResourceManager.GetObject("D_Github", resourceCulture);
@@ -696,6 +706,16 @@ namespace DDNS.Properties {
         internal static System.Drawing.Bitmap Exit {
             get {
                 object obj = ResourceManager.GetObject("Exit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Figma {
+            get {
+                object obj = ResourceManager.GetObject("Figma", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

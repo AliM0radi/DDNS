@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radar-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\radar-en.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Instagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Instagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,9 +166,6 @@
   <data name="En_D_electro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\En_D_electro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="D-Custom-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\D-Custom-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="google-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\google-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -183,6 +183,9 @@
   </data>
   <data name="En_D_google" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\En_D_google.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exclude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exclude.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="D-Shecan-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-Shecan-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,9 +223,6 @@
   <data name="electro-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\electro-en.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="En_D_language" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\En_D_language.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="En_D_OK-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\En_D_OK-btn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -241,17 +241,20 @@
   <data name="En_D_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\En_D_one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bogzar-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bogzar-en.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="D-dark-mode" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-dark-mode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="D-ping" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-ping.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bogzar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bogzar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="D-btn-google" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-btn-google.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ping-test-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ping-test-en1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cancel-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cancel-btn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,6 +298,9 @@
   <data name="D-Custom-dns-form-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-Custom-dns-form-bg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="begzar-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\begzar-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="D_About_me_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D_About_me_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -309,9 +315,6 @@
   </data>
   <data name="D-Begzar-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-Begzar-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="D-DNS-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\D-DNS-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="D-language" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D-language.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,20 +334,23 @@
   <data name="resetbtn-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\resetbtn-en.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="D-btn-one" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\D-btn-one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="costum-dns-form-bg-fa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\costum-dns-form-bg-fa1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="D_Github" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D_Github.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="radar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\radar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="electro-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\electro-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="one-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\one-en.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\radar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="En_D_language" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\En_D_language.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="En_D_radar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\En_D_radar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,20 +358,17 @@
   <data name="About_me" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\About_me.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Customdns-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Customdns-en1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="D-btn-one" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D-btn-one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bogzar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bogzar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="electro-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\electro-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="D-Custom-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D-Custom-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Custom-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Custom-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="radar-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\radar-en.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bogzar-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bogzar-en.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cancelbtn-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cancelbtn-en1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -373,14 +376,14 @@
   <data name="shecan-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shecan-en.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ping-test-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ping-test-en1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Customdns-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Customdns-en1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="About_me_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\About_me_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="begzar-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\begzar-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="D-DNS-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D-DNS-bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="En_D_Cancel-btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\En_D_Cancel-btn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -391,7 +394,10 @@
   <data name="SELECT-DNS-en" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SELECT-DNS-en.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Exclude" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Exclude.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Figma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Figma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Figma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D_Figma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

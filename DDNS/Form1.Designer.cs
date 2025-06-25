@@ -297,7 +297,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Home_form";
+            this.Text = "DDNS";
             ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Minimize_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Google_Btn)).EndInit();

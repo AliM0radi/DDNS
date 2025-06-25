@@ -10,3 +10,4 @@ F:\project\Ddns\DDNS\obj\Release\DDNS.csproj.GenerateResource.cache
 F:\project\Ddns\DDNS\obj\Release\DDNS.csproj.CoreCompileInputs.cache
 F:\project\Ddns\DDNS\obj\Release\DDNS.exe
 F:\project\Ddns\DDNS\obj\Release\DDNS.pdb
+F:\project\DDNS\DDNS\obj\Release\DDNS.AboutForm.resources

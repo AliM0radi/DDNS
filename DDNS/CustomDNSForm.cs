@@ -5,28 +5,31 @@ namespace DDNS
 {
     public partial class CustomDNSForm : Form
     {
-        public string Dns1 => txtDns1.Text.Trim();
-        public string Dns2 => txtDns2.Text.Trim();
+        public string Dns1 => txtDns1.Text.Trim(); // DNS اولیه
+        public string Dns2 => txtDns2.Text.Trim(); // DNS ثانویه
 
-        private bool isDarkTheme = true;
-        private bool isPersian = true;
+        private bool isDarkTheme = true; //تعیین وضعیت تم
+        private bool isPersian = true;   //تعیین زبان
 
         public CustomDNSForm()
         {
             InitializeComponent();
         }
 
+        //خروج
         private void Cancel_Btn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        //تغییر dns به انتخاب کاربر
         private void btnApply_Click(object sender, EventArgs e)
         {
+            // بررسی اینکه آیا DNS اولیه وارد شده یا نه
             if (string.IsNullOrWhiteSpace(Dns1))
             {
                 MessageBox.Show(
-                    isPersian ? "لطفاً DNS اولیه را وارد کنید!" : "Please enter the primary DNS!",
+                    isPersian ? "!لطفاً دی ان اس اولیه را وارد کنید" : "Please enter the primary DNS!",
                     isPersian ? "خطا" : "Error",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning
@@ -34,10 +37,12 @@ namespace DDNS
                 return;
             }
 
+            //بستن فرم در صورت نبودن مشکل
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
 
+        //تغییر تم
         public void SetTheme(bool isDark)
         {
             isDarkTheme = isDark;
@@ -55,10 +60,11 @@ namespace DDNS
                 : (isPersian ? Properties.Resources.Cancel_btn : Properties.Resources.cancelbtn_en);
         }
 
+        //متدی برای تنظیم زبان فرم و به‌روزرسانی تم بر اساس زبان جدید
         public void SetLanguage(bool isPersian)
         {
             this.isPersian = isPersian;
-            SetTheme(isDarkTheme); // تا دوباره تصاویر درست بارگذاری شوند
+            SetTheme(isDarkTheme);
         }
     }
 }

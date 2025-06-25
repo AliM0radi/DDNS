@@ -14,23 +14,26 @@ namespace DDNS
 {
     public partial class Form1 : Form
     {
-        private bool isDarkTheme = true;
-        private bool isPersian = true;
+        private bool isDarkTheme = true;    //تعیین وضعیت تم
+        private bool isPersian = true;      //تعیین زبان
         public Form1()
         {
             InitializeComponent();
         }
 
+        //دکمه خروج
         private void Exit_btn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        //دکمه مینیمایز
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
         }
 
+        //تغییر dns به گوگل
         private void Google_Btn_Click(object sender, EventArgs e)
         {
             string dns1 = "8.8.8.8";
@@ -39,7 +42,7 @@ namespace DDNS
             string iface = GetActiveInterfaceName();
             if (iface == null)
             {
-                MessageBox.Show("کارت شبکه فعال پیدا نشد");
+                MessageBox.Show(isPersian ? "کارت شبکه فعال پیدا نشد" : "No active network interface found");
                 return;
             }
 
@@ -54,12 +57,13 @@ namespace DDNS
             RunNetsh($"interface ip add dns name=\"{iface}\" {dns2} index=2");
         }
 
+        //بازنشانی dns به حالت خودکار
         private void Reset_Btn_Click(object sender, EventArgs e)
         {
             string iface = GetActiveInterfaceName();
             if (iface == null)
             {
-                MessageBox.Show("کارت شبکه فعال پیدا نشد");
+                MessageBox.Show(isPersian ? "کارت شبکه فعال پیدا نشد" : "No active network interface found");
                 return;
             }
 
@@ -72,6 +76,7 @@ namespace DDNS
             RunNetsh($"interface ip set dns name=\"{iface}\" dhcp");
         }
 
+        //اجرای دستور netsh با دسترسی ادمین
         private void RunNetsh(string args)
         {
             try
@@ -84,10 +89,11 @@ namespace DDNS
             }
             catch
             {
-                MessageBox.Show("دسترسی Administrator مورد نیاز است.");
+                MessageBox.Show(isPersian ? "دسترسی Administrator مورد نیاز است." : "Administrator privileges are required.");
             }
         }
 
+        //به‌دست‌آوردن نام کارت شبکه فعال
         private string GetActiveInterfaceName()
         {
             var interfaces = NetworkInterface.GetAllNetworkInterfaces()
@@ -100,6 +106,7 @@ namespace DDNS
             return interfaces.FirstOrDefault()?.Name;
         }
 
+        //تغییر dns به شکن
         private void Shecan_Btn_Click(object sender, EventArgs e)
         {
             string dns1 = "178.22.122.100";
@@ -108,7 +115,7 @@ namespace DDNS
             string iface = GetActiveInterfaceName();
             if (iface == null)
             {
-                MessageBox.Show("کارت شبکه فعال پیدا نشد");
+                MessageBox.Show(isPersian ? "کارت شبکه فعال پیدا نشد" : "No active network interface found");
                 return;
             }
 
@@ -122,6 +129,7 @@ namespace DDNS
             RunNetsh($"interface ip add dns name=\"{iface}\" {dns2} index=2");
         }
 
+        //تغییر dns به الکترو
         private void Electeo_Btn_Click(object sender, EventArgs e)
         {
             string dns1 = "78.157.42.100";
@@ -130,7 +138,7 @@ namespace DDNS
             string iface = GetActiveInterfaceName();
             if (iface == null)
             {
-                MessageBox.Show("کارت شبکه فعال پیدا نشد");
+                MessageBox.Show(isPersian ? "کارت شبکه فعال پیدا نشد" : "No active network interface found");
                 return;
             }
 
@@ -144,6 +152,7 @@ namespace DDNS
             RunNetsh($"interface ip add dns name=\"{iface}\" {dns2} index=2");
         }
 
+        //تغییر dns به رادارگیم
         private void Radar_Btn_Click(object sender, EventArgs e)
         {
             string dns1 = "10.202.10.10";
@@ -152,7 +161,7 @@ namespace DDNS
             string iface = GetActiveInterfaceName();
             if (iface == null)
             {
-                MessageBox.Show("کارت شبکه فعال پیدا نشد");
+                MessageBox.Show(isPersian ? "کارت شبکه فعال پیدا نشد" : "No active network interface found");
                 return;
             }
 
@@ -166,6 +175,7 @@ namespace DDNS
             RunNetsh($"interface ip add dns name=\"{iface}\" {dns2} index=2");
         }
 
+        //تغییر dns به بگذز
         private void Begzar_Btn_Click(object sender, EventArgs e)
         {
             string dns1 = "185.55.226.25";
@@ -174,7 +184,7 @@ namespace DDNS
             string iface = GetActiveInterfaceName();
             if (iface == null)
             {
-                MessageBox.Show("کارت شبکه فعال پیدا نشد");
+                MessageBox.Show(isPersian ? "کارت شبکه فعال پیدا نشد" : "No active network interface found");
                 return;
             }
 
@@ -188,6 +198,7 @@ namespace DDNS
             RunNetsh($"interface ip add dns name=\"{iface}\" {dns2} index=2");
         }
 
+        //تغییر dns به کلودفلر
         private void One_Btn_Click(object sender, EventArgs e)
         {
             string dns1 = "1.1.1.1";
@@ -196,7 +207,7 @@ namespace DDNS
             string iface = GetActiveInterfaceName();
             if (iface == null)
             {
-                MessageBox.Show("کارت شبکه فعال پیدا نشد");
+                MessageBox.Show(isPersian ? "کارت شبکه فعال پیدا نشد" : "No active network interface found");
                 return;
             }
 
@@ -210,6 +221,7 @@ namespace DDNS
             RunNetsh($"interface ip add dns name=\"{iface}\" {dns2} index=2");
         }
 
+        //تغییر تم از دارک به لایت و برعکس
         private void Theme_Btn_Click(object sender, EventArgs e)
         {
             isDarkTheme = !isDarkTheme;
@@ -248,6 +260,7 @@ namespace DDNS
             UpdateLanguage();
         }
 
+        //تغییر به DNS مورد نظر کاربر
         private void Custom_Btn_Click(object sender, EventArgs e)
         {
             var customForm = new CustomDNSForm();
@@ -279,16 +292,18 @@ namespace DDNS
             }
         }
 
+        //بازکردن فرم پینگ
         private void Ping_Btn_Click(object sender, EventArgs e)
         {
             using (PingForm form = new PingForm())
             {
-                form.SetLanguage(isPersian);       // تنظیم زبان
-                form.SetTheme(isDarkTheme);        // تنظیم تم
+                form.SetLanguage(isPersian);
+                form.SetTheme(isDarkTheme);
                 form.ShowDialog();
             }
         }
 
+        //تغییر زبان
         private void Language_Btn_Click(object sender, EventArgs e)
         {
             isPersian = !isPersian;
@@ -296,6 +311,7 @@ namespace DDNS
             UpdateLanguage();
         }
 
+        //بر اساس isPersian مشخص می کند که زبان از فارسی به انگلیسی تغییر کند یا برعکس
         private void UpdateLanguage()
         {
             if (isDarkTheme)
@@ -356,11 +372,12 @@ namespace DDNS
             }
         }
 
+        //باز کردن فرم درباره من
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
             using (AboutForm form = new AboutForm())
             {
-                form.SetTheme(isDarkTheme);     // اگه نیاز به تم داری
+                form.SetTheme(isDarkTheme);     
                 form.ShowDialog();
             }
         }

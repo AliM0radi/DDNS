@@ -84,7 +84,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PingForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PingForm";
+            this.Text = "Ping";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PingForm_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.btnApply)).EndInit();
             this.ResumeLayout(false);

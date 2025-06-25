@@ -95,7 +95,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CustomDNSForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CustomDNSForm";
+            this.Text = "Custom DNS";
             ((System.ComponentModel.ISupportInitialize)(this.btnApply)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cancel_Btn)).EndInit();
             this.ResumeLayout(false);
